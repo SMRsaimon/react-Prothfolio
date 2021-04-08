@@ -1,0 +1,35 @@
+.img-container {
+  width: 300px;
+  height: 45px;
+  position: relative;
+}
+.img-container img {
+  position: absolute;
+  top: -25px;
+  right: 0px;
+}
+.nav-conatiner {
+  padding: 5px 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(105, 105, 105, 0.267);
+  z-index: 100000000000000;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.nav-link {
+  color: white !important;
+  padding: 0px 1rem !important;
+}
+.nav-link:active {
+  color: red !important;
+}
+
+@media (max-width: 600px) {
+  .nav-link {
+    padding: 9px 20px !important;
+  }
+}

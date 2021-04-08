@@ -1,0 +1,12 @@
+.card-container {
+  background-color: #424872f8;
+  color: aliceblue;
+  overflow: hidden;
+}
+.card-container img {
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+.card-container img:hover {
+  transform: scale(1.1);
+}

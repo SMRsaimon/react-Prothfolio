@@ -1,0 +1,15 @@
+.skill-container {
+  padding: 1rem 0.5rem;
+}
+.skill-container h3 {
+  color: rgba(255, 255, 255, 0.801);
+  font-weight: 500;
+}
+.skill-container h3:after {
+  content: "";
+  width: 74px;
+  height: 2px;
+  display: block;
+  margin-top: 7px;
+  background-color: #64ffda;
+}

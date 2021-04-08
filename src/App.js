@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
+import * as ReactNavbar from "react-responsive-animate-navbar";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
+import Work from './components/Work/Work';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Header />
+            <Intro />
+            <About />
+            <Footer />
+          </Route>
+          <Route path="/about">
+            <Header />
+            <About />
+            <Footer />
+          </Route>
+          <Route path="/work">
+            <Header />
+            <Work></Work>
+            <Footer />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 }
 

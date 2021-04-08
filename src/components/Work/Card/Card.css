@@ -10,3 +10,16 @@
 .card-container img:hover {
   transform: scale(1.1);
 }
+.icon-Container {
+  padding: 5px 10px;
+}
+.icon-Container svg {
+  margin-right: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #64ffda;
+}
+.technology-useses {
+  display: flex;
+  flex-wrap: wrap;
+}

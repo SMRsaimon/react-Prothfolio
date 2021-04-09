@@ -2,16 +2,16 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
-import * as ReactNavbar from "react-responsive-animate-navbar";
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Work from './components/Work/Work';
+import Blog from './components/Blog/Blog';
 
 
 function App() {
@@ -34,6 +34,11 @@ function App() {
           <Route path="/work">
             <Header />
             <Work />
+            <Footer />
+          </Route>
+          <Route path="/blog">
+            <Header />
+            <Blog />
             <Footer />
           </Route>
         </Switch>

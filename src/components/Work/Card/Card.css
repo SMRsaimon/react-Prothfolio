@@ -2,6 +2,7 @@
   background-color: #424872f8;
   color: aliceblue;
   overflow: hidden;
+  min-height: 460px;
 }
 .card-container img {
   cursor: pointer;

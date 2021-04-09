@@ -40,9 +40,16 @@ const About = () => {
                 modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with
                 increasing responsibilities.
               </p>
-              <button className="btn btn-outline-success " type="button">
-                <FontAwesomeIcon icon={faFileDownload} /> Resume
-              </button>
+
+              <a
+                rel="noReferrer"
+                href="https://docs.google.com/document/d/1mCvun3zoBAo-rB8aZVVPUE4ajHx7Vzg2M7nnA5FjonU/edit"
+                target="_blank"
+              >
+                <button className="btn btn-outline-success " type="button">
+                  <FontAwesomeIcon icon={faFileDownload} /> Resume
+                </button>
+              </a>
             </div>
           </div>
           <div className="col-md-6">

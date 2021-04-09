@@ -6,15 +6,15 @@
 .social-heading {
   color: grey;
   margin-bottom: 30px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 
-.foooter-h2 {
+.foooter-h4 {
   font-size: 20px;
   color: gray;
   font-weight: 800;
 
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 .footer-p {
   font-size: 16px;
@@ -34,4 +34,14 @@
 }
 .sr-fluid a {
   width: 98% !important ;
+}
+.para {
+  color: white;
+}
+.social-container {
+  width: 477px;
+  margin-left: auto;
+}
+.brandName {
+  color: cornflowerblue;
 }

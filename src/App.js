@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/">
             <Header />
             <Intro />
-            <About />
+            <Work />
             <Footer />
           </Route>
           <Route path="/about">
@@ -33,7 +33,7 @@ function App() {
           </Route>
           <Route path="/work">
             <Header />
-            <Work></Work>
+            <Work />
             <Footer />
           </Route>
         </Switch>

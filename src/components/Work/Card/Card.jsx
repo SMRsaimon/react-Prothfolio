@@ -24,8 +24,12 @@ const WorkCard = (props) => {
           </div>
           <Card.Footer>
             <small className="icon-Container">
-              <FontAwesomeIcon icon={faGithub} />
-              <FontAwesomeIcon icon={faExternalLinkAlt} />
+              <a rel="noReferrer" target="_blank" href="http://https://github.com/SMRsaimon">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a rel="noReferrer" target="_blank" href={liveLink}>
+                <FontAwesomeIcon icon={faExternalLinkAlt} />
+              </a>
             </small>
           </Card.Footer>
         </Card>

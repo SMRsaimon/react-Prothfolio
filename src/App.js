@@ -12,6 +12,7 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Work from './components/Work/Work';
 import Blog from './components/Blog/Blog';
+import Contract from './components/Contract/Contract';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Header />
             <Intro />
             <Work />
+            <Contract />
             <Footer />
           </Route>
           <Route path="/about">
@@ -39,6 +41,11 @@ function App() {
           <Route path="/blog">
             <Header />
             <Blog />
+            <Footer />
+          </Route>
+          <Route path="/contact">
+            <Header />
+            <Contract />
             <Footer />
           </Route>
         </Switch>

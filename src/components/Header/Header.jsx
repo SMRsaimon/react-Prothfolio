@@ -1,10 +1,8 @@
 import React from "react";
-import * as ReactNavbar from "react-responsive-animate-navbar";
-import About from "../About/About";
-import Intro from "../Intro/Intro";
+
 import "./Header.css";
 import { Link } from "react-router-dom";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -18,7 +16,6 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto ml-auto">
-            {/* <Link to="/home">Features</Link> */}
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
@@ -31,7 +28,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/">
               Blog
             </Nav.Link>
-            <Nav.Link as={Link} to="/">
+            <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
           </Nav>

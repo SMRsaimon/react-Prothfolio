@@ -40,8 +40,12 @@
 }
 .social-container {
   width: 477px;
-  margin-left: auto;
 }
 .brandName {
   color: cornflowerblue;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

@@ -8,10 +8,10 @@ const Footer = () => {
     <footer id="footer">
       <div className="container footer-container">
         <div className="row">
-          <div className="col-6 pt-5 mx-auto ">
+          <div className="col-12 pt-5 d-flex justify-content-center">
             <div className="social-container">
-              <h4 className="social-heading"> SOCIAL MEDIA</h4>
-              <div className="socializer a sr-32px sr-squircle-2 sr-zoom sr-fluid sr-font-lg sr-icon-white sr-sw-2 sr-pad">
+              <h4 className="social-heading text-center"> SOCIAL MEDIA</h4>
+              <div className="mx-auto socializer a sr-32px sr-squircle-2 sr-zoom sr-fluid sr-font-lg sr-icon-white sr-sw-2 sr-pad">
                 <span className="sr-facebook sr-text-hover">
                   <a href="https://www.facebook.com/profile.php?id=100007366064691" rel="noReferrer" target="_blank" title="Facebook">
                     <FontAwesomeIcon icon={faFacebook} />
@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="copyrights pt-5">
+          <div className=" col-12 d-flex justify-content-center copyrights pt-5">
             <p className="para text-center">
               Copyright ©2021 All rights reserved | DESIGN && Build BY &nbsp; <span className="brandName">SULTAN MAHMUD</span>
             </p>

@@ -27,6 +27,7 @@ function App() {
             <Work />
             <Contract />
             <Footer />
+
           </Route>
           <Route path="/about">
             <Header />

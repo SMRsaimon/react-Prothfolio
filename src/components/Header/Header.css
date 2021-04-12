@@ -1,12 +1,12 @@
 .img-container {
-  width: 300px;
+  width: 250px;
   height: 45px;
   position: relative;
 }
 .img-container img {
   position: absolute;
   top: -25px;
-  right: 0px;
+  right: 30px;
 }
 .nav-conatiner {
   padding: 5px 10px;

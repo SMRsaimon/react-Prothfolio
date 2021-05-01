@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Skill from "../Skill/Skill";
 import "./About.css";
-
+import resume from "../../Resourse/SULTANMAHMUD.pdf";
 const About = () => {
   const setSkills = [
     "HTML5",
@@ -41,11 +41,7 @@ const About = () => {
                 increasing responsibilities.
               </p>
 
-              <a
-                rel="noReferrer"
-                href="https://docs.google.com/document/d/1mCvun3zoBAo-rB8aZVVPUE4ajHx7Vzg2M7nnA5FjonU/edit"
-                target="_blank"
-              >
+              <a rel="noReferrer" href={resume} target="_blank">
                 <button className="btn btn-outline-success " type="button">
                   <FontAwesomeIcon icon={faFileDownload} /> Resume
                 </button>

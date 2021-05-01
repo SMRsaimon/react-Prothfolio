@@ -1,0 +1,32 @@
+import React, { useEffect, useState } from "react";
+import { workData } from "../../Resourse/ProjectData";
+import WorkCard from "../Work/Card/Card";
+import "./allwork.css";
+
+const AllWork = () => {
+  const [projectData, setProjectData] = useState([]);
+
+  useEffect(() => {
+    setProjectData(workData);
+  }, []);
+  return (
+    <div id="workCard">
+      <div className="content-wrapper-allworks">
+        <h2 className="text-center allworks-h2">
+          My Recent <h2 className="project-taitle-shortName"> Projects </h2>
+        </h2>
+
+        <p className="text-center allworks-p">Here are a few projects I've worked on recently</p>
+      </div>
+      <div className="container">
+        <div className="row">
+          {projectData.map((x) => (
+            <WorkCard key={x.id} data={x}></WorkCard>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AllWork;

@@ -34,7 +34,7 @@ const Footer = () => {
                 </span>
 
                 <span className="sr-linkedin sr-text-hover">
-                  <a rel="noReferrer" href="https://www.linkedin.com/" target="_blank" title="linkedin">
+                  <a rel="noReferrer" href="https://www.linkedin.com/in/sultan-mahmud-44069a20b/" target="_blank" title="linkedin">
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                   <span class="text">linkedin</span>

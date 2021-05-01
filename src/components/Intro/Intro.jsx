@@ -2,7 +2,8 @@ import React from "react";
 import "./Intro.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faFileDownload, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+import resume from "../../Resourse/SULTANMAHMUD.pdf";
 const Intro = () => {
   const history = useHistory();
   return (
@@ -22,9 +23,9 @@ const Intro = () => {
           </ul>
           <div className="intro-text">
             <p>
-              Programming is my fashion.I am Working as a Professional Web Developer in Bangladesh for almost 2+ years. I have experience in
-              all expect of web development using JavaScript technology. I am familler with JavaScript.My main focus is coding the website
-              mobile-friendly, SEO friendly, browser compatible and maximum optimized way so that it performs well.
+              I love programming. I am working as a Professional Web Developer in Bangladesh for almost 1+ years. I have experience in all
+              expect of web development using JavaScript technology. I am familiar with MERN stack web development. My main focus is coding
+              the website mobile-friendly, SEO-friendly, browser compatible, and the maximum optimized way so that it performs well.
             </p>
           </div>
 
@@ -32,7 +33,7 @@ const Intro = () => {
             <button onClick={() => history.push("/about")} className="btn btn-outline-success" type="button">
               About Me
             </button>
-            <a rel="noReferrer" href="https://docs.google.com/document/d/1mCvun3zoBAo-rB8aZVVPUE4ajHx7Vzg2M7nnA5FjonU/edit" target="_blank">
+            <a rel="noReferrer" href={resume} target="_blank">
               <button className="btn btn-success " type="button">
                 <FontAwesomeIcon icon={faFileDownload} /> Resume
               </button>
@@ -51,3 +52,5 @@ export default Intro;
 
 // https://i.ibb.co/cDG1QC1/1.png
 // https://i.ibb.co/0BJfy8T/a.png
+
+// cv link   https://drive.google.com/file/d/1mjR96Md2Znz_bBOTNPT0Pa0ERv4bJG-j/view

@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer';
 import Work from './components/Work/Work';
 import Blog from './components/Blog/Blog';
 import Contract from './components/Contract/Contract';
+import AllWork from './components/AllWork/AllWork';
 
 
 function App() {
@@ -34,9 +35,10 @@ function App() {
             <About />
             <Footer />
           </Route>
+
           <Route path="/work">
             <Header />
-            <Work />
+            <AllWork />
             <Footer />
           </Route>
           <Route path="/blog">

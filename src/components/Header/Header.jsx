@@ -23,7 +23,7 @@ const Header = () => {
               About
             </Nav.Link>
             <Nav.Link as={Link} to="/work">
-              Works
+              Project
             </Nav.Link>
             <Nav.Link as={Link} to="/">
               Blog

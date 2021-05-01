@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skill.css";
-
+import Fade from "react-reveal/Fade";
 const Skill = (props) => {
   const { taitle, skills } = props;
   return (
@@ -11,7 +11,9 @@ const Skill = (props) => {
           <>
             {skills.map((skill) => (
               <>
-                <span className="skill"> {skill}</span>
+                <Fade top>
+                  <span className="skill"> {skill}</span>
+                </Fade>
               </>
             ))}
           </>

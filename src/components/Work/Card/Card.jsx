@@ -4,36 +4,39 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Card } from "react-bootstrap";
 import "./Card.css";
+import Fade from "react-reveal/Fade";
 
 const WorkCard = (props) => {
   const { img, title, description, technology, gitLink, liveLink } = props.data;
 
   return (
     <>
-      <div className="col-md-4 p-4">
-        <Card className="card-container">
-          <Card.Img variant="top" src={img} />
-          <Card.Body>
-            <Card.Title>{title}</Card.Title>
-            <Card.Text>{description}</Card.Text>
-          </Card.Body>
-          <div className="technology-useses">
-            {technology.map((x) => (
-              <span className="skill">{x}</span>
-            ))}
-          </div>
-          <Card.Footer>
-            <small className="icon-Container">
-              <a rel="noReferrer" target="_blank" href="http://https://github.com/SMRsaimon">
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-              <a rel="noReferrer" target="_blank" href={liveLink}>
-                <FontAwesomeIcon icon={faExternalLinkAlt} />
-              </a>
-            </small>
-          </Card.Footer>
-        </Card>
-      </div>
+      <Fade right>
+        <div className="col-md-4 p-4">
+          <Card className="card-container">
+            <Card.Img variant="top" src={img} />
+            <Card.Body>
+              <Card.Title>{title}</Card.Title>
+              <Card.Text>{description}</Card.Text>
+            </Card.Body>
+            <div className="technology-useses">
+              {technology.map((x) => (
+                <span className="skill">{x}</span>
+              ))}
+            </div>
+            <Card.Footer>
+              <small className="icon-Container">
+                <a rel="noReferrer" target="_blank" href="http://https://github.com/SMRsaimon">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+                <a rel="noReferrer" target="_blank" href={liveLink}>
+                  <FontAwesomeIcon icon={faExternalLinkAlt} />
+                </a>
+              </small>
+            </Card.Footer>
+          </Card>
+        </div>
+      </Fade>
     </>
   );
 };

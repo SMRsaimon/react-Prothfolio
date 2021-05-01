@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ReactTypingEffect from "react-typing-effect";
 import { workData } from "../../Resourse/ProjectData";
 import WorkCard from "../Work/Card/Card";
 import "./allwork.css";
@@ -16,7 +17,10 @@ const AllWork = () => {
           My Recent <h2 className="project-taitle-shortName"> Projects </h2>
         </h2>
 
-        <p className="text-center allworks-p">Here are a few projects I've worked on recently</p>
+        <p className="text-center allworks-p">
+          {" "}
+          <ReactTypingEffect text={["Here are a few projects I've worked on recently"]} />{" "}
+        </p>
       </div>
       <div className="container">
         <div className="row">

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router";
 import { workData } from "../../Resourse/ProjectData";
 import WorkCard from "./Card/Card";
+import Rotate from "react-reveal/Rotate";
+import Fade from "react-reveal/Rotate";
 
 import "./Work.css";
 
@@ -14,7 +16,9 @@ const Work = () => {
   }, []);
   return (
     <div id="workCard">
-      <h1>My Projects </h1>
+      <Rotate bottom left>
+        <h1>My Projects </h1>
+      </Rotate>
       <div className="container">
         <div className="row">
           {projectData.map((x) => (

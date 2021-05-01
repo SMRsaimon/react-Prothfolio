@@ -8,26 +8,32 @@ const About = () => {
   const setSkills = [
     "HTML5",
     "CSS3",
+    "SASS",
     "JavaScript",
     "React.Js",
     "Redux.Js",
     "Node.Js",
     "Express.Js",
     "Mongo DB",
+    "React-Bootstrap",
+    "Metarial UI",
     "C/C++",
     "Firebase",
+    "Heroku",
+    "Netlify",
     "Git",
     "VS Code",
   ];
   const workWith = ["JavaScript", "React.Js", "Redux.Js", "Node.Js", "Express.Js", "Mongo DB"];
   const taitle1 = "My Skills Set";
   const taitle2 = "I want to work with";
+  const taitle3 = "Education";
 
   return (
     <div id="about-conatiner">
       <div className="container about-contant-conatiner">
         <div className="row">
-          <div className="col-md-6 py-5">
+          <div className="col-md-6 py-5 about-img-wrapper-left">
             <div className="about-img-container d-flex justify-content-center">
               <img src="https://i.ibb.co/cDG1QC1/1.png" alt="" srcset="" />
             </div>
@@ -52,6 +58,7 @@ const About = () => {
             <div className="row">
               <Skill taitle={taitle1} skills={setSkills}></Skill>
               <Skill taitle={taitle2} skills={workWith}></Skill>
+              <Skill taitle={taitle3} skills={false}></Skill>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Work = () => {
   }, []);
   return (
     <div id="workCard">
-      <h1>My Project </h1>
+      <h1>My Projects </h1>
       <div className="container">
         <div className="row">
           {projectData.map((x) => (

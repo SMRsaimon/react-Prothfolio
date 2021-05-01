@@ -1,4 +1,4 @@
-import { faGit, faGithub, faGitSquare } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -26,7 +26,7 @@ const WorkCard = (props) => {
             </div>
             <Card.Footer>
               <small className="icon-Container">
-                <a rel="noReferrer" target="_blank" href="http://https://github.com/SMRsaimon">
+                <a rel="noReferrer" target="_blank" href={gitLink}>
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a rel="noReferrer" target="_blank" href={liveLink}>

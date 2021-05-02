@@ -4,6 +4,16 @@
   overflow: hidden;
   min-height: 460px;
 }
+.card-container:hover {
+  background-color: transparent;
+  color: aliceblue;
+  overflow: hidden;
+  min-height: 460px;
+  border: none;
+  transition: 0.7s ease-in-out;
+  -webkit-box-shadow: 5px 5px 15px 2px #000000;
+  box-shadow: 5px 5px 15px 2px #000000;
+}
 .card-container img {
   cursor: pointer;
   transition: 0.6s ease-in-out;

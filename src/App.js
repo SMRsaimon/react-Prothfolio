@@ -14,6 +14,7 @@ import Work from './components/Work/Work';
 import Blog from './components/Blog/Blog';
 import Contract from './components/Contract/Contract';
 import AllWork from './components/AllWork/AllWork';
+import MostUseLangusge from './components/MostUseLangusge/MostUseLangusge';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/">
             <Header />
             <Intro />
+            <MostUseLangusge />
             <Work />
             <Contract />
             <Footer />
@@ -33,6 +35,7 @@ function App() {
           <Route path="/home">
             <Header />
             <Intro />
+            <MostUseLangusge />
             <Work />
             <Contract />
             <Footer />

@@ -3,12 +3,14 @@ import "./Contract.css"
 import { useForm, ValidationError } from '@formspree/react';
 import ReactTypingEffect from 'react-typing-effect';
 
-console.log(ValidationError)
+
 
 
 const Contract = () => {
 
   const [state, handleSubmit] = useForm({})
+
+  console.log(state)
 
   return (
 
@@ -56,7 +58,6 @@ const Contract = () => {
                     field="name"
                     errors={state.errors}
                   />
-
 
                   <div className="wrap-input100 validate-input" >
 

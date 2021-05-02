@@ -1,0 +1,45 @@
+.language-icon {
+  font-size: 70px;
+  padding: 10px 15px;
+}
+.languagelogoContainer {
+  opacity: 0.7;
+}
+.languagelogoContainer:hover {
+  opacity: 1;
+}
+.html {
+  color: #f210108a;
+}
+.css {
+  color: #4967fff7;
+}
+.sass {
+  color: #fffb0f;
+}
+.bootstarp {
+  color: #5bc0de;
+}
+.metarialui {
+  color: #90caf9;
+}
+.javascript {
+  color: #f0ad4e;
+}
+.react {
+  color: #61dbfb;
+}
+.nodejs {
+  color: #3c873a;
+}
+.mongodb {
+  color: green;
+}
+#MostUseLangusge {
+  background-color: #313552;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.mostusesLanguage-heading {
+}

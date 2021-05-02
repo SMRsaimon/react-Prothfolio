@@ -1,7 +1,12 @@
 .bg-contact100 a:focus {
   outline: none !important;
 }
-
+.contract-heading {
+  padding-top: 50px;
+  color: #20c997;
+  position: relative;
+  top: 118px;
+}
 .bg-contact100 a:hover {
   text-decoration: none;
   color: #57b846;

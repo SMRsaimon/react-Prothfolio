@@ -3,8 +3,14 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  const isActive = {
+    fontWeight: "bold",
+
+    backgroundColor: "#64ffda",
+  };
   return (
     <>
       <Navbar collapseOnSelect expand="md" variant="dark" className="nav-conatiner">
@@ -16,19 +22,19 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto ml-auto">
-            <Nav.Link as={Link} to="/">
+            <Nav.Link activeStyle={isActive} as={NavLink} to="/home">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/about">
+            <Nav.Link activeStyle={isActive} as={NavLink} to="/about">
               About
             </Nav.Link>
-            <Nav.Link as={Link} to="/work">
+            <Nav.Link activeStyle={isActive} as={NavLink} to="/work">
               Project
             </Nav.Link>
-            <Nav.Link as={Link} to="/blog">
+            <Nav.Link activeStyle={isActive} as={NavLink} to="/blog">
               Blog
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
+            <Nav.Link activeStyle={isActive} as={NavLink} to="/contact">
               Contact
             </Nav.Link>
           </Nav>

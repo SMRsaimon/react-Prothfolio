@@ -24,8 +24,11 @@
   color: white !important;
   padding: 0px 1rem !important;
 }
-.nav-link:active {
-  color: red !important;
+.nav-link.active {
+  color: black !important;
+}
+.active-nab-btn {
+  color: #000000 !important;
 }
 
 @media (max-width: 600px) {

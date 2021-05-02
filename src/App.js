@@ -30,6 +30,14 @@ function App() {
             <Footer />
 
           </Route>
+          <Route path="/home">
+            <Header />
+            <Intro />
+            <Work />
+            <Contract />
+            <Footer />
+
+          </Route>
           <Route path="/about">
             <Header />
             <About />

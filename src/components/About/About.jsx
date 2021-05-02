@@ -4,6 +4,9 @@ import React from "react";
 import Skill from "../Skill/Skill";
 import "./About.css";
 import resume from "../../Resourse/SULTANMAHMUD.pdf";
+import { FcGraduationCap } from "react-icons/fc";
+import { GiSkills } from "react-icons/gi";
+import { VscFileCode } from "react-icons/vsc";
 const About = () => {
   const setSkills = [
     "HTML5",
@@ -28,6 +31,9 @@ const About = () => {
   const taitle1 = "My Skills Set";
   const taitle2 = "I want to work with";
   const taitle3 = "Education";
+  const icon1 = <GiSkills />;
+  const icon2 = <VscFileCode />;
+  const icon3 = <FcGraduationCap />;
 
   return (
     <div id="about-conatiner">
@@ -56,9 +62,9 @@ const About = () => {
           </div>
           <div className="col-md-6">
             <div className="row">
-              <Skill taitle={taitle1} skills={setSkills}></Skill>
-              <Skill taitle={taitle2} skills={workWith}></Skill>
-              <Skill taitle={taitle3} skills={false}></Skill>
+              <Skill icon={icon1} taitle={taitle1} skills={setSkills}></Skill>
+              <Skill icon={icon2} taitle={taitle2} skills={workWith}></Skill>
+              <Skill icon={icon3} taitle={taitle3} skills={false}></Skill>
             </div>
           </div>
         </div>

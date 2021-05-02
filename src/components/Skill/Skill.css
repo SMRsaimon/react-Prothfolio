@@ -9,6 +9,7 @@
   content: "";
   width: 74px;
   height: 2px;
+  margin-left: 51px;
   display: block;
   margin-top: 7px;
   background-color: #64ffda;
@@ -30,6 +31,9 @@
 .education-container p {
 }
 .education-container .current {
+}
+.icon-color {
+  color: rgb(245, 2, 2);
 }
 
 .education-container::before {

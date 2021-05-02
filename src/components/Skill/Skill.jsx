@@ -2,10 +2,14 @@ import React from "react";
 import "./Skill.css";
 import Fade from "react-reveal/Fade";
 const Skill = (props) => {
-  const { taitle, skills } = props;
+  const { icon, taitle, skills } = props;
   return (
     <div className="col-10 skill-container mx-auto">
-      <h3> {taitle}</h3>
+      <h3 className="d-inline">
+        {" "}
+        <span className="icon-color">{icon} &nbsp; </span>
+        {taitle}
+      </h3>
       <div className="set-skill-container">
         {skills ? (
           <>

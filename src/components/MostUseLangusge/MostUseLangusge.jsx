@@ -9,7 +9,7 @@ import { VscFileCode } from "react-icons/vsc";
 const MostUseLangusge = () => {
   return (
     <div id="MostUseLangusge">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-12">
             <h2 className="text-center text-light mostusesLanguage-heading">
@@ -19,7 +19,7 @@ const MostUseLangusge = () => {
               </h2>
             </h2>
           </div>
-          <div className="col-12 d-flex justify-content-center languagelogoContainer">
+          <div className="col-12 d-flex  flex-wrap justify-content-center languagelogoContainer">
             <SiHtml5 className="language-icon html"></SiHtml5>
             <SiCss3 className="language-icon css"></SiCss3>
             <DiSass className="language-icon sass"></DiSass>

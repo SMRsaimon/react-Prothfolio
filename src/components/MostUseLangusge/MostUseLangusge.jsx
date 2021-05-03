@@ -3,7 +3,8 @@ import "./MostUseLangusge.css";
 import { SiHtml5, SiCss3, SiMaterialUi, SiJavascript, SiNodeDotJs, SiMongodb } from "react-icons/si";
 import { DiSass, DiReact } from "react-icons/di";
 import { BsFillBootstrapFill } from "react-icons/bs";
-import {} from "react-icons/si";
+
+import { VscFileCode } from "react-icons/vsc";
 
 const MostUseLangusge = () => {
   return (
@@ -12,7 +13,7 @@ const MostUseLangusge = () => {
         <div className="row">
           <div className="col-12">
             <h2 className="text-center text-light mostusesLanguage-heading">
-              Most Useses &nbsp;
+              <VscFileCode /> Most Useses &nbsp;
               <h2 className="d-inline " style={{ color: "#20c997" }}>
                 Languages and Tools
               </h2>

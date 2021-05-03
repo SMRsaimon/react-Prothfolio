@@ -4,7 +4,7 @@ import React from "react";
 import Skill from "../Skill/Skill";
 import "./About.css";
 import resume from "../../Resourse/SULTANMAHMUD.pdf";
-import { FcGraduationCap } from "react-icons/fc";
+import { FaGraduationCap } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { VscFileCode } from "react-icons/vsc";
 const About = () => {
@@ -31,9 +31,9 @@ const About = () => {
   const taitle1 = "My Skills Set";
   const taitle2 = "I want to work with";
   const taitle3 = "Education";
-  const icon1 = <GiSkills />;
-  const icon2 = <VscFileCode />;
-  const icon3 = <FcGraduationCap />;
+  const icon1 = <GiSkills className="metarialui" />;
+  const icon2 = <VscFileCode className="metarialui" />;
+  const icon3 = <FaGraduationCap className="metarialui" />;
 
   return (
     <div id="about-conatiner">

@@ -48,9 +48,10 @@ const About = () => {
                 <span>I'M</span> &nbsp; Sultan Mahmud
               </h1>
               <p>
-                A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with
-                modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with
-                increasing responsibilities.
+                JavaScript is the most popular programming language in the world, so it’s no wonder that JavaScript is one of the most
+                sought-after skills in the web development industry today. I am a self-motivated and enthusiastic web developer with a deep
+                interest in JavaScript. I am familiar with new JavaScript technology. I Like to actively seek out new technologies and stay
+                up-to-date on industry trends and advancements.
               </p>
 
               <a rel="noReferrer" href={resume} target="_blank">

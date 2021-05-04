@@ -27,6 +27,7 @@ function App() {
             <Header />
             <Intro />
             <MostUseLangusge />
+            <About/>
             <Work />
             <Contract />
             <Footer />
@@ -36,6 +37,7 @@ function App() {
             <Header />
             <Intro />
             <MostUseLangusge />
+            <About/>
             <Work />
             <Contract />
             <Footer />

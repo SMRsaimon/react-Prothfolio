@@ -3,7 +3,7 @@ import "./Intro.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faFileDownload, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { useHistory } from "react-router-dom";
-import resume from "../../Resourse/SULTANMAHMUD.pdf";
+// import resume from "../../Resourse/SULTANMAHMUD.pdf";
 import ReactTypingEffect from "react-typing-effect";
 import Fade from "react-reveal/Fade";
 
@@ -43,7 +43,7 @@ const Intro = () => {
               <button onClick={() => history.push("/about")} className="btn btn-outline-success" type="button">
                 About Me
               </button>
-              <a rel="noReferrer" href={resume} target="_blank">
+              <a rel="noReferrer" href="https://drive.google.com/file/d/1jubZ-UAl-1pQ2maK9odWDZ2ZEhPKcV-l/view" target="_blank">
                 <button className="btn btn-success " type="button">
                   <FontAwesomeIcon icon={faFileDownload} /> Resume
                 </button>

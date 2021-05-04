@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Skill from "../Skill/Skill";
 import "./About.css";
-import resume from "../../Resourse/SULTANMAHMUD.pdf";
+// import resume from "../../Resourse/SULTANMAHMUD.pdf";
 import { FaGraduationCap } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { VscFileCode } from "react-icons/vsc";
@@ -54,7 +54,7 @@ const About = () => {
                 up-to-date on industry trends and advancements.
               </p>
 
-              <a rel="noReferrer" href={resume} target="_blank">
+              <a rel="noReferrer" href="https://drive.google.com/file/d/1jubZ-UAl-1pQ2maK9odWDZ2ZEhPKcV-l/view" target="_blank">
                 <button className="btn btn-outline-success " type="button">
                   <FontAwesomeIcon icon={faFileDownload} /> Resume
                 </button>

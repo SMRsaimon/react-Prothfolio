@@ -10,6 +10,7 @@ import Fade from "react-reveal/Fade";
 const Intro = () => {
   const history = useHistory();
 
+
   return (
     <div id="my-background" className="background">
       <div id="stars" />

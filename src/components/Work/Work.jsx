@@ -3,7 +3,7 @@ import { useHistory } from "react-router";
 import { workData } from "../../Resourse/ProjectData";
 import WorkCard from "./Card/Card";
 import Rotate from "react-reveal/Rotate";
-import Fade from "react-reveal/Rotate";
+
 
 import "./Work.css";
 

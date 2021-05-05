@@ -1,8 +1,34 @@
 #blog {
-  height: 100vh;
+  padding-top: 100px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #313552;
 }
+.blog-img-container img{
+width: 300px;
+}
+#blog h1{
+  margin-left: 20px;
+  margin-top: 60px;
+}
+#blog h1::after{
+  content: "";
+    width: 74px;
+    height: 2px;
+    display: block;
+    margin-top: 7px;
+    background-color: #64ffda;
+}
+.blog-card-container:hover{
+  background-color: #313552;
+  transition: background .5s ease-in-out;
+}
+.blog-card-container p{
+  color: gray;
+}
+.blog-card-container:hover h3{
+  color: white;
+}
+.blog-card-container:hover p{
+  color: white;
+}
+

@@ -29,6 +29,7 @@ function App() {
             <MostUseLangusge />
             <About/>
             <Work />
+            <Blog/>
             <Contract />
             <Footer />
 
@@ -39,6 +40,7 @@ function App() {
             <MostUseLangusge />
             <About/>
             <Work />
+            <Blog/>
             <Contract />
             <Footer />
 

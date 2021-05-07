@@ -19,7 +19,7 @@ export const workData = [
       " A single-page Medical services application where people are able to book an appointment with a specific doctor and a specific date. Doctor cancel the appointment and check all appointments.",
     technology: ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase Authentication"],
     gitLink: "https://github.com/SMRsaimon/MERN-strack-MedicalProject-ClintSite",
-    liveLink: "https://github.com/SMRsaimon/MERN-strack-MedicalProject-Server",
+    liveLink: "https://saimon-health-cear.web.app/",
   },
   {
     id: "03",

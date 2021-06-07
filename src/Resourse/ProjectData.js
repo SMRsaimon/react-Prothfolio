@@ -1,5 +1,7 @@
 import ITservices from "../img/IT-Project.png";
 
+import reduxProject from "../Resourse/redux.png"
+
 export const workData = [
   {
     id: "01",
@@ -44,6 +46,15 @@ export const workData = [
   },
   {
     id: "05",
+    img: reduxProject,
+    title: "React-Redux-Ecommerce",
+    description: "This is a single page e-commerce application. It's a team Projects. Where I used React-redux for state management. Implement add to cart option also Increment and Decrement ",
+    technology: ["React.js", "Redux.js", "Bootstrap5", "Firebase"],
+    gitLink: "https://github.com/SMRsaimon/React-Redux-Ecommerce-project2",
+    liveLink: "https://sundorban-276cb.web.app/",
+  },
+  {
+    id: "06",
     img: "https://i.ibb.co/WkbK913/resturant-food.png",
     title: "Tasty food",
     description: "Simple application, Make Intarective design, Day and Dark mood ",

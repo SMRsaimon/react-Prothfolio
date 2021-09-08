@@ -2,6 +2,7 @@ import ITservices from "../img/IT-Project.png";
 
 import reduxProject from "../Resourse/redux.png"
 import artist from "../img/artist.png"
+import blog from "../img/blog.png"
 
 export const workData = [
   {
@@ -11,7 +12,7 @@ export const workData = [
     description:
       "This is an official real-life project. It's completely dynamic. Admin can create a new project and upload his project , also update, delete option available. Dynamic profile information and blog section also.",
     technology: ["React.js", "Node.js", "Express.js", "MySql"],
-    gitLink:"",
+    gitLink:"https://github.com/SMRsaimon",
     liveLink: "https://www.reyadabedin.com/",
   },
   {
@@ -72,5 +73,14 @@ export const workData = [
     technology: ["HTML5", "CSS3", "JavaScript"],
     gitLink: "https://github.com/SMRsaimon/Resturant-project",
     liveLink: "https://smrsaimon.github.io/Resturant-project/resturant.html",
+  },
+  {
+    id: "08",
+    img: blog,
+    title: "Blog Application",
+    description: "This is a blog application. Users can create new blogs. Update the blogs and also delete his own blog ",
+    technology: ["React", "JavaScript", "Bootstrap"],
+    gitLink: "https://github.com/SMRsaimon/Technext-Limited-assignment",
+    liveLink: "https://blog-site-1901c.web.app/profile",
   },
 ];

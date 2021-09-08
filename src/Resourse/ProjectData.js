@@ -1,10 +1,21 @@
 import ITservices from "../img/IT-Project.png";
 
 import reduxProject from "../Resourse/redux.png"
+import artist from "../img/artist.png"
 
 export const workData = [
   {
     id: "01",
+    img: artist,
+    title: "Artist Portfolio",
+    description:
+      "This is an official real-life project. It's completely dynamic. Admin can create a new project and upload his project , also update, delete option available. Dynamic profile information and blog section also.",
+    technology: ["React.js", "Node.js", "Express.js", "MySql"],
+    gitLink:"",
+    liveLink: "https://www.reyadabedin.com/",
+  },
+  {
+    id: "02",
     img: ITservices,
     title: "IT Services & Tech",
     description:
@@ -14,7 +25,7 @@ export const workData = [
     liveLink: "https://smr-creative-it.web.app/",
   },
   {
-    id: "02",
+    id: "03",
     img: "https://i.ibb.co/6BWHjKR/Screenshot-9.png",
     title: "Medical Services web application",
     description:
@@ -24,7 +35,7 @@ export const workData = [
     liveLink: "https://saimon-health-cear.web.app/",
   },
   {
-    id: "03",
+    id: "04",
     img: "https://i.ibb.co/74NwN49/redOnion.png",
     title: "Red Onion",
     description:
@@ -34,7 +45,7 @@ export const workData = [
     liveLink: "https://red-onion-restaura.firebaseapp.com/",
   },
   {
-    id: "04",
+    id: "05",
     img: "https://i.ibb.co/6sGsvRq/shop.png",
     title: "Digital Shop",
     description:
@@ -45,7 +56,7 @@ export const workData = [
     liveLink: "https://digital-shop-3e726.web.app/Home",
   },
   {
-    id: "05",
+    id: "06",
     img: reduxProject,
     title: "React-Redux-Ecommerce",
     description: "This is a single page e-commerce application. It's a team Projects. Where I used React-redux for state management. Implement add to cart option also Increment and Decrement ",
@@ -54,7 +65,7 @@ export const workData = [
     liveLink: "https://sundorban-276cb.web.app/",
   },
   {
-    id: "06",
+    id: "07",
     img: "https://i.ibb.co/WkbK913/resturant-food.png",
     title: "Tasty food",
     description: "Simple application, Make Intarective design, Day and Dark mood ",

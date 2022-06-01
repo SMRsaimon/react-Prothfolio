@@ -1,17 +1,21 @@
-import ITservices from "../img/IT-Project.png";
-
-import reduxProject from "../Resourse/redux.png";
 import artist from "../img/artist.png";
 import blog from "../img/blog.png";
+import designer from "../img/designer.png";
 import factorx from "../img/factorX.png";
+import ITservices from "../img/IT-Project.png";
+import jobSearch from "../img/jobSearch.png";
+import reduxProject from "../Resourse/redux.png";
 
 export const workData = [
   {
     id: "010",
     img: factorx,
     title: "FactorX Invoice ",
-    description:
-      "This is an official real-life project. It's completely dynamic And paid  software.  Create Invoice, send invoice, draft invoice, file send file receive and lot more functionality [email:user1@gmail.com, password:qwerty]",
+    description: `FactorX Invoice is a real life premium type application that I developed for my company client.
+      It has two versions BASIC and PREMIUM. BASIC is free for all users and PREMIUM is a paid
+      version. Users can create invoices, save it as draft, and can send to specific users. Also users
+      can send any file (video, pdf, etc.).And has a lot of features.[email:sudeep@kalpas.in, pass:
+      A123456]`,
     technology: [
       "React.js",
       "Node.js",
@@ -20,7 +24,35 @@ export const workData = [
       "Stripe Payment",
     ],
     gitLink: "https://github.com/SMRsaimon",
-    liveLink: "https://factorx-invoice.edalytics.com/",
+    liveLink: "https://invoice-project-7ec89.web.app/",
+  },
+  {
+    id: "0101",
+    img: jobSearch,
+    title: "Designers-learn",
+    description: `Job post and job search is a real life premium type application that I developed for my
+    company client. It has six types of user roles. Companies can post the job and regular users can
+    apply for this job and it has a lot of features for different different types of users.`,
+    technology: ["React.js", "Laravel,", "MySql"],
+    gitLink: "https://github.com/SMRsaimon",
+    liveLink: "https://rettung4you.ga/",
+  },
+  {
+    id: "0102",
+    img: designer,
+    title: "Job Post And Job Search",
+    description: `It's a designers management website where learner, mentors can both learn and teach. It's a
+    complete designers management system that contains both meetup, batch, and mentor
+    management systems. It's an incomplete project.`,
+    technology: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Stripe Payment",
+    ],
+    gitLink: "https://github.com/SMRsaimon",
+    liveLink: "https://designerrs-learner.web.app/",
   },
   {
     id: "01",

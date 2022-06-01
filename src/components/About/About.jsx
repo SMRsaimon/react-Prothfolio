@@ -1,13 +1,13 @@
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Skill from "../Skill/Skill";
-import "./About.css";
 // import resume from "../../Resourse/SULTANMAHMUD.pdf";
 import { FaGraduationCap } from "react-icons/fa";
+import { FcWorkflow } from "react-icons/fc";
 import { GiSkills } from "react-icons/gi";
 import { VscFileCode } from "react-icons/vsc";
-import { FcWorkflow } from "react-icons/fc";
+import Skill from "../Skill/Skill";
+import "./About.css";
 const About = () => {
   const setSkills = [
     "HTML5",
@@ -57,7 +57,11 @@ const About = () => {
         <div className="row">
           <div className="col-md-6 py-5 about-img-wrapper-left">
             <div className="about-img-container d-flex justify-content-center">
-              <img src="https://i.ibb.co/cDG1QC1/1.png" alt="profileImage" srcset="" />
+              <img
+                src="https://i.ibb.co/cDG1QC1/1.png"
+                alt="profileImage"
+                srcset=""
+              />
             </div>
             <div className="about-contant">
               <h1>
@@ -93,17 +97,18 @@ const About = () => {
               <div className="col-10 skill-container mx-auto">
                 <h3 className="d-inline">
                   {" "}
-                  <span className="icon-color"> <FcWorkflow className="metarialui"/> &nbsp; </span>
+                  <span className="icon-color">
+                    {" "}
+                    <FcWorkflow className="metarialui" /> &nbsp;{" "}
+                  </span>
                   Work Experience
                 </h3>
                 <div className="set-skill-container">
                   <div className="education-container p-2">
                     <div className="mt-3">
                       <h5>Mensa DigiWorld</h5>
-                      <h6>Software developer(MERN)</h6>
-                      <p>
-                        May 2021 – <span className="current">Current</span>
-                      </p>
+                      <h6>Software Engineer Internship (React)</h6>
+                      <p>Jun 2021 to September 2021</p>
                     </div>
                     <div className="mt-4">
                       <h5>Kalpas Innovations Pvt. Ltd.</h5>
